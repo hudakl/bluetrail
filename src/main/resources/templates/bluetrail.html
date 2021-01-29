@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link th:href="@{/styles/css/main.css}" rel="stylesheet" />
+</head>
+<body>
+	<h1 th:text="#{blue.trail.planner}">Kéktúra tervező</h1>
+    <form action="#" th:action="@{/routeplanning}" th:object="${bluetrailDisplayContext}" method="post">
+        <p th:text="#{start.point}" /> 
+        
+        <select id="" name="">
+        </select>
+        
+        <select id="" name="">
+        </select>
+        
+        <p th:text="#{end.point}" />
+
+        <select id="" name="">
+        </select>
+        
+        <select id="" name="">
+        </select>
+
+        <p th:text="#{trip.date}" />
+        <p th:text="#{home.address}" />
+        <input type="submit" th:value="#{planning}" />
+    </form>
+</body>
+</html>
