@@ -1,5 +1,6 @@
 package com.greyflame.bluetrail.persistence;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -7,6 +8,7 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import javax.persistence.OneToOne;
 
 @Entity
 public class StampPoint {
@@ -35,6 +37,9 @@ public class StampPoint {
     private int elevEastward;
 
     private int elevWestward;
+
+    @OneToOne(mappedBy = "stampPoint", cascade = CascadeType.ALL)
+    private BusStop busStop;
 
     public Long getId() {
         return id;
@@ -114,6 +119,14 @@ public class StampPoint {
 
     public void setElevWestward(int elevWestward) {
         this.elevWestward = elevWestward;
+    }
+
+    public BusStop getBusStop() {
+        return busStop;
+    }
+
+    public void setBusStop(BusStop busStop) {
+        this.busStop = busStop;
     }
     
 }
