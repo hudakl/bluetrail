@@ -1,10 +1,15 @@
 package com.greyflame.bluetrail.persistence;
 
+import java.util.ArrayList;
+import java.util.List;
+
+import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
 
 @Entity
 public class LongDistanceTrail {
@@ -21,6 +26,9 @@ public class LongDistanceTrail {
     private Integer distance;
 
     private Integer numberOfSections;
+
+    @OneToMany(mappedBy = "longDistanceTrail", cascade = CascadeType.ALL)
+    private List<TrailSection> trailSections = new ArrayList<>();
 
     public Long getId() {
         return id;
@@ -60,6 +68,14 @@ public class LongDistanceTrail {
 
     public void setNumberOfSections(Integer numberOfSections) {
         this.numberOfSections = numberOfSections;
+    }
+
+    public List<TrailSection> getTrailSections() {
+        return trailSections;
+    }
+
+    public void setTrailSections(List<TrailSection> trailSections) {
+        this.trailSections = trailSections;
     }
     
 }
