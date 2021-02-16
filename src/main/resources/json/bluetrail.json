@@ -1,0 +1,3066 @@
+{
+    "originalName": "Országos Kéktúra",
+    "foreignNameKey": "blue.trail",
+    "distance": 1172,
+    "numberOfSections": 27,
+    "trailSections": [
+        {
+            "numberOfSection": 1,
+            "officialId": "OKT01", 
+            "region": "Kőszegi-hegység, Kemeneshát",
+            "stampPoints": [
+                {
+                    "number": 1,
+                    "name": "Írott-kő",
+                    "distEastward": 9000,
+                    "distWestward": 0,
+                    "timeEastward": 150,
+                    "timeWestward": 0,
+                    "elevEastward": 145,
+                    "elevWestward": 0,
+                    "busStop": {
+                        "name": "Velem, autóbusz-forduló",
+                        "mapSearch": "8FWQ+CQ Velem",
+                        "distanceOfStamp": 4900,
+                        "timeToStamp": 73,
+                        "timeFromStamp": 73,
+                        "elevToStamp": 516,
+                        "elevFromStamp": 10
+                    } 
+                },
+                {
+                    "number": 2,
+                    "name": "Hét-forrás",
+                    "distEastward": 4900,
+                    "distWestward": 9000,
+                    "timeEastward": 80,
+                    "timeWestward": 190,
+                    "elevEastward": 90,
+                    "elevWestward": 590,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 3,
+                    "name": "Kőszeg",
+                    "distEastward": 15800,
+                    "distWestward": 4900,
+                    "timeEastward": 250,
+                    "timeWestward": 100,
+                    "elevEastward": 130,
+                    "elevWestward": 255,
+                    "busStop": {
+                        "name": "Kőszeg vasútállomás",
+                        "mapSearch": "9HJ4+VH Kőszeg",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 4,
+                    "name": "Tömörd",
+                    "distEastward": 9800,
+                    "distWestward": 15800,
+                    "timeEastward": 150,
+                    "timeWestward": 260,
+                    "elevEastward": 75,
+                    "elevWestward": 185,
+                    "busStop": {
+                        "name": "Tömörd, autóbusz-váróterem",
+                        "mapSearch": "9M6H+6P Tömörd",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 5,
+                    "name": "Ablánci malom",
+                    "distEastward": 10800,
+                    "distWestward": 9800,
+                    "timeEastward": 170,
+                    "timeWestward": 280,
+                    "elevEastward": 85,
+                    "elevWestward": 110,
+                    "busStop": {
+                        "name": "Acsád, Abláncmajor",
+                        "mapSearch": "8PXW+28 Acsád",
+                        "distanceOfStamp": 185,
+                        "timeToStamp": 2,
+                        "timeFromStamp": 2,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 6,
+                    "name": "Szeleste",
+                    "distEastward": 9400,
+                    "distWestward": 10800,
+                    "timeEastward": 140,
+                    "timeWestward": 170,
+                    "elevEastward": 35,
+                    "elevWestward": 100,
+                    "busStop": {
+                        "name": "Szeleste, autóbusz-váróterem",
+                        "mapSearch": "8R4M+J5 Szeleste",
+                        "distanceOfStamp": 185,
+                        "timeToStamp": 2,
+                        "timeFromStamp": 2,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 7,
+                    "name": "Bögöt",
+                    "distEastward": 7400,
+                    "distWestward": 9400,
+                    "timeEastward": 110,
+                    "timeWestward": 140,
+                    "elevEastward": 5,
+                    "elevWestward": 35,
+                    "busStop": {
+                        "name": "Bögöt, autóbusz-váróterem",
+                        "mapSearch": "7R3H+6V Bögöt",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 8,
+                    "name": "Csényeújmajor",
+                    "distEastward": 4300,
+                    "distWestward": 7400,
+                    "timeEastward": 60,
+                    "timeWestward": 110,
+                    "elevEastward": 0,
+                    "elevWestward": 10,
+                    "busStop": {
+                        "name": "Sárvár, Csényeújmajor",
+                        "mapSearch": "6VQW+6Q Sárvár",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                }
+            ]
+        },
+        {
+            "numberOfSection": 2,
+            "officialId": "OKT02", 
+            "region": "Kemeneshát",
+            "stampPoints": [
+                {
+                    "number": 9,
+                    "name": "Sárvár",
+                    "distEastward": 12300,
+                    "distWestward": 4300,
+                    "timeEastward": 190,
+                    "timeWestward": 60,
+                    "elevEastward": 95,
+                    "elevWestward": 5,
+                    "busStop": {
+                        "name": "Sárvár, vasútállomás",
+                        "mapSearch": "7W5H+FV Sárvár",
+                        "distanceOfStamp": 1180,
+                        "timeToStamp": 17,
+                        "timeFromStamp": 17,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 10,
+                    "name": "Gérce",
+                    "distEastward": 2500,
+                    "distWestward": 12300,
+                    "timeEastward": 40,
+                    "timeWestward": 190,
+                    "elevEastward": 25,
+                    "elevWestward": 75,
+                    "busStop": {
+                        "name": "Gérce, könyvtár",
+                        "mapSearch": "6288+W8 Gérce",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 11,
+                    "name": "Rózsáskerti erdészház",
+                    "distEastward": 4700,
+                    "distWestward": 2500,
+                    "timeEastward": 70,
+                    "timeWestward": 40,
+                    "elevEastward": 20,
+                    "elevWestward": 20,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 12,
+                    "name": "Hidegkúti vadászház",
+                    "distEastward": 6600,
+                    "distWestward": 4700,
+                    "timeEastward": 110,
+                    "timeWestward": 70,
+                    "elevEastward": 75,
+                    "elevWestward": 35,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 13,
+                    "name": "Káld",
+                    "distEastward": 10900,
+                    "distWestward": 6600,
+                    "timeEastward": 170,
+                    "timeWestward": 110,
+                    "elevEastward": 90,
+                    "elevWestward": 80,
+                    "busStop": {
+                        "name": "Káld, Pusztalánci utca",
+                        "mapSearch": "526W+J5 Káld",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 14,
+                    "name": "Hosszúpereszteg",
+                    "distEastward": 5800,
+                    "distWestward": 10900,
+                    "timeEastward": 90,
+                    "timeWestward": 170,
+                    "elevEastward": 35,
+                    "elevWestward": 105,
+                    "busStop": {
+                        "name": "Hosszúpereszteg, autóbusz-váróterem",
+                        "mapSearch": "32WF+3H Hosszúpereszteg",
+                        "distanceOfStamp": 420,
+                        "timeToStamp": 6,
+                        "timeFromStamp": 6,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 15,
+                    "name": "Szajki erdészház",
+                    "distEastward": 15500,
+                    "distWestward": 5800,
+                    "timeEastward": 240,
+                    "timeWestward": 90,
+                    "elevEastward": 55,
+                    "elevWestward": 30,
+                    "busStop": {
+                        "name": "Szajki tavak",
+                        "mapSearch": "3237+MM Hosszúpereszteg",
+                        "distanceOfStamp": 350,
+                        "timeToStamp": 5,
+                        "timeFromStamp": 5,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 16,
+                    "name": "Ötvös",
+                    "distEastward": 8000,
+                    "distWestward": 15500,
+                    "timeEastward": 120,
+                    "timeWestward": 240,
+                    "elevEastward": 25,
+                    "elevWestward": 60,
+                    "busStop": {
+                        "name": "Ötvös, autóbusz-megálló",
+                        "mapSearch": "24GP+QC Dabronc",
+                        "distanceOfStamp": 1950,
+                        "timeToStamp": 30,
+                        "timeFromStamp": 30,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 17,
+                    "name": "Kisvásárhely",
+                    "distEastward": 6200,
+                    "distWestward": 8000,
+                    "timeEastward": 80,
+                    "timeWestward": 120,
+                    "elevEastward": 35,
+                    "elevWestward": 50,
+                    "busStop": {
+                        "name": "Kisvásárhely, autóbusz-forduló",
+                        "mapSearch": "X5VX+R3 Kisvásárhely",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                }
+            ]
+        },
+        {
+            "numberOfSection": 3,
+            "officialId": "OKT03", 
+            "region": "Balaton-felvidék",
+            "stampPoints": [
+                {
+                    "number": 18,
+                    "name": "Sümeg",
+                    "distEastward": 6400,
+                    "distWestward": 6200,
+                    "timeEastward": 100,
+                    "timeWestward": 90,
+                    "elevEastward": 35,
+                    "elevWestward": 80,
+                    "busStop": {
+                        "name": "Sümeg, vasútállomás",
+                        "mapSearch": "X7JC+F9 Sümeg",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 19,
+                    "name": "Sarvaly erdészház",
+                    "distEastward": 15100,
+                    "distWestward": 6400,
+                    "timeEastward": 260,
+                    "timeWestward": 100,
+                    "elevEastward": 345,
+                    "elevWestward": 45,
+                    "busStop": {
+                        "name": "Sümegprága, Petőfi u.",
+                        "mapSearch": "W7VJ+67 Sümegprága",
+                        "distanceOfStamp": 2300,
+                        "timeToStamp": 35,
+                        "timeFromStamp": 34,
+                        "elevToStamp": 80,
+                        "elevFromStamp": 42
+                    } 
+                },
+                {
+                    "number": 20,
+                    "name": "Zalaszántó",
+                    "distEastward": 6400,
+                    "distWestward": 15100,
+                    "timeEastward": 120,
+                    "timeWestward": 260,
+                    "elevEastward": 240,
+                    "elevWestward": 365,
+                    "busStop": {
+                        "name": "Zalaszántó, Ádám u.",
+                        "mapSearch": "V6QH+95 Zalaszántó",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 21,
+                    "name": "Rezi",
+                    "distEastward": 2600,
+                    "distWestward": 6400,
+                    "timeEastward": 40,
+                    "timeWestward": 110,
+                    "elevEastward": 20,
+                    "elevWestward": 165,
+                    "busStop": {
+                        "name": "Rezi, autóbusz-forduló",
+                        "mapSearch": "R6V9+GH Rezi",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 22,
+                    "name": "Gyöngyösi csárda",
+                    "distEastward": 7900,
+                    "distWestward": 2600,
+                    "timeEastward": 130,
+                    "timeWestward": 40,
+                    "elevEastward": 95,
+                    "elevWestward": 155,
+                    "busStop": {
+                        "name": "Cserszegtomaj, Gyöngyösi csárda",
+                        "mapSearch": "R5HX+59 Rezi",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 23,
+                    "name": "Hévíz",
+                    "distEastward": 7000,
+                    "distWestward": 7900,
+                    "timeEastward": 110,
+                    "timeWestward": 130,
+                    "elevEastward": 55,
+                    "elevWestward": 110,
+                    "busStop": {
+                        "name": "Hévíz Autóbuszállomás",
+                        "mapSearch": "Q5QR+H7 Hévíz",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                }
+            ]
+        },
+        {
+            "numberOfSection": 4,
+            "officialId": "OKT04", 
+            "region": "Balaton-felvidék",
+            "stampPoints": [
+                {
+                    "number": 24,
+                    "name": "Keszthely",
+                    "distEastward": 13200,
+                    "distWestward": 7000,
+                    "timeEastward": 230,
+                    "timeWestward": 110,
+                    "elevEastward": 350,
+                    "elevWestward": 60,
+                    "busStop": {
+                        "name": "Keszthely, vasútállomás",
+                        "mapSearch": "Q65X+86 Keszthely",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 25,
+                    "name": "Vállus",
+                    "distEastward": 7100,
+                    "distWestward": 13200,
+                    "timeEastward": 130,
+                    "timeWestward": 220,
+                    "elevEastward": 190,
+                    "elevWestward": 215,
+                    "busStop": {
+                        "name": "Vállus, autóbusz-forduló",
+                        "mapSearch": "R8W3+45 Vállus",
+                        "distanceOfStamp": 160,
+                        "timeToStamp": 2,
+                        "timeFromStamp": 2,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 26,
+                    "name": "Lesenceistvánd",
+                    "distEastward": 7000,
+                    "distWestward": 7100,
+                    "timeEastward": 110,
+                    "timeWestward": 140,
+                    "elevEastward": 15,
+                    "elevWestward": 305,
+                    "busStop": {
+                        "name": "Lesenceistvánd, egészségház",
+                        "mapSearch": "V996+PV Lesenceistvánd",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                }
+            ]
+        },
+        {
+            "numberOfSection": 5,
+            "officialId": "OKT05", 
+            "region": "Balaton-felvidék",
+            "stampPoints": [
+                {
+                    "number": 27,
+                    "name": "Tapolca",
+                    "distEastward": 6000,
+                    "distWestward": 7000,
+                    "timeEastward": 110,
+                    "timeWestward": 110,
+                    "elevEastward": 160,
+                    "elevWestward": 20,
+                    "busStop": {
+                        "name": "Tapolca, vasútállomás",
+                        "mapSearch": "VCHH+4C Tapolca",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 28,
+                    "name": "Szent György-hegy",
+                    "distEastward": 7800,
+                    "distWestward": 6000,
+                    "timeEastward": 140,
+                    "timeWestward": 90,
+                    "elevEastward": 220,
+                    "elevWestward": 10,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                },
+                {
+                    "number": 29,
+                    "name": "Szigliget",
+                    "distEastward": 3400,
+                    "distWestward": 7800,
+                    "timeEastward": 50,
+                    "timeWestward": 150,
+                    "elevEastward": 15,
+                    "elevWestward": 320,
+                    "busStop": {
+                        "name": "Szigliget, Fő tér",
+                        "mapSearch": "RC2M+H8 Szigliget",
+                        "distanceOfStamp": 300,
+                        "timeToStamp": 4,
+                        "timeFromStamp": 4,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    } 
+                }
+            ]
+        },
+        {
+            "numberOfSection": 6,
+            "officialId": "OKT06", 
+            "region": "Balaton-felvidék",
+            "stampPoints": [
+                {
+                    "number": 30,
+                    "name": "Badacsonytördemic",
+                    "distEastward": 11500,
+                    "distWestward": 3400,
+                    "timeEastward": 230,
+                    "timeWestward": 60,
+                    "elevEastward": 545,
+                    "elevWestward": 80,
+                    "busStop": {
+                        "name": "Badacsonytördemic-Szigliget",
+                        "mapSearch": "RF59+VM Badacsonytördemic",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 31,
+                    "name": "Káptalantóti",
+                    "distEastward": 4000,
+                    "distWestward": 11500,
+                    "timeEastward": 90,
+                    "timeWestward": 220,
+                    "elevEastward": 255,
+                    "elevWestward": 525,
+                    "busStop": {
+                        "name": "Káptalantóti, kultúrház",
+                        "mapSearch": "VG27+27 Káptalantóti",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 32,
+                    "name": "Csobánc",
+                    "distEastward": 9900,
+                    "distWestward": 4000,
+                    "timeEastward": 170,
+                    "timeWestward": 60,
+                    "elevEastward": 240,
+                    "elevWestward": 30,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 33,
+                    "name": "Szentbékkálla",
+                    "distEastward": 7400,
+                    "distWestward": 9900,
+                    "timeEastward": 130,
+                    "timeWestward": 190,
+                    "elevEastward": 230,
+                    "elevWestward": 425,
+                    "busStop": {
+                        "name": "Szentbékkálla, Petőfi utca",
+                        "mapSearch": "VHP8+F5 Szentbékkálla",
+                        "distanceOfStamp": 200,
+                        "timeToStamp": 3,
+                        "timeFromStamp": 3,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 34,
+                    "name": "Balatonhenye",
+                    "distEastward": 6900,
+                    "distWestward": 7400,
+                    "timeEastward": 120,
+                    "timeWestward": 130,
+                    "elevEastward": 180,
+                    "elevWestward": 180,
+                    "busStop": {
+                        "name": "Balatonhenye, autóbusz-váróterem",
+                        "mapSearch": "WJ68+F9 Balatonhenye",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 35,
+                    "name": "Csicsói erdészház",
+                    "distEastward": 7900,
+                    "distWestward": 6900,
+                    "timeEastward": 130,
+                    "timeWestward": 110,
+                    "elevEastward": 80,
+                    "elevWestward": 85,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 7,
+            "officialId": "OKT07", 
+            "region": "Bakony",
+            "stampPoints": [
+                {
+                    "number": 36,
+                    "name": "Nagyvázsony",
+                    "distEastward": 9700,
+                    "distWestward": 7900,
+                    "timeEastward": 180,
+                    "timeWestward": 130,
+                    "elevEastward": 375,
+                    "elevWestward": 140,
+                    "busStop": {
+                        "name": "Nagyvázsony, autóbusz-váróterem",
+                        "mapSearch": "XMJW+VP Nagyvázsony",
+                        "distanceOfStamp": 300,
+                        "timeToStamp": 5,
+                        "timeFromStamp": 5,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 37,
+                    "name": "Kab-hegy",
+                    "distEastward": 5600,
+                    "distWestward": 9700,
+                    "timeEastward": 90,
+                    "timeWestward": 150,
+                    "elevEastward": 20,
+                    "elevWestward": 95,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 38,
+                    "name": "Úrkút",
+                    "distEastward": 7400,
+                    "distWestward": 5600,
+                    "timeEastward": 120,
+                    "timeWestward": 100,
+                    "elevEastward": 75,
+                    "elevWestward": 150,
+                    "busStop": {
+                        "name": "Úrkút, bányászotthon",
+                        "mapSearch": "3JJW+M5 Úrkút",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 8,
+            "officialId": "OKT08", 
+            "region": "Bakony",
+            "stampPoints": [
+                {
+                    "number": 39,
+                    "name": "Városlőd",
+                    "distEastward": 12900,
+                    "distWestward": 7400,
+                    "timeEastward": 220,
+                    "timeWestward": 130,
+                    "elevEastward": 220,
+                    "elevWestward": 195,
+                    "busStop": {
+                        "name": "Városlőd-Kislőd",
+                        "mapSearch": "4JMJ+HC Kislőd",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 40,
+                    "name": "Németbánya",
+                    "distEastward": 8600,
+                    "distWestward": 12900,
+                    "timeEastward": 150,
+                    "timeWestward": 210,
+                    "elevEastward": 175,
+                    "elevWestward": 175,
+                    "busStop": {
+                        "name": "Németbánya, forduló",
+                        "mapSearch": "6J7W+VJ Németbánya",
+                        "distanceOfStamp": 600,
+                        "timeToStamp": 9,
+                        "timeFromStamp": 9,
+                        "elevToStamp": 12,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 41,
+                    "name": "Bakonybél",
+                    "distEastward": 7300,
+                    "distWestward": 8600,
+                    "timeEastward": 160,
+                    "timeWestward": 150,
+                    "elevEastward": 465,
+                    "elevWestward": 245,
+                    "busStop": {
+                        "name": "Bakonybél, üdülő bejárati út",
+                        "mapSearch": "7P5C+4H Bakonybél",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 42,
+                    "name": "Kőris-hegy",
+                    "distEastward": 7500,
+                    "distWestward": 7300,
+                    "timeEastward": 120,
+                    "timeWestward": 110,
+                    "elevEastward": 85,
+                    "elevWestward": 15,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 43,
+                    "name": "Borzavár",
+                    "distEastward": 5200,
+                    "distWestward": 7500,
+                    "timeEastward": 90,
+                    "timeWestward": 150,
+                    "elevEastward": 140,
+                    "elevWestward": 390,
+                    "busStop": {
+                        "name": "Borzavár, vegyesbolt",
+                        "mapSearch": "7RRM+3M Borzavár",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 9,
+            "officialId": "OKT09", 
+            "region": "Bakony",
+            "stampPoints": [
+                {
+                    "number": 44,
+                    "name": "Zirc",
+                    "distEastward": 10200,
+                    "distWestward": 5200,
+                    "timeEastward": 170,
+                    "timeWestward": 90,
+                    "elevEastward": 130,
+                    "elevWestward": 160,
+                    "busStop": {
+                        "name": "Zirc, vasútállomás",
+                        "mapSearch": "7V8H+M6 Zirc",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 45,
+                    "name": "Bakonynána",
+                    "distEastward": 6100,
+                    "distWestward": 10200,
+                    "timeEastward": 100,
+                    "timeWestward": 170,
+                    "elevEastward": 95,
+                    "elevWestward": 210,
+                    "busStop": {
+                        "name": "Bakonynána, Petőfi Sándor utca",
+                        "mapSearch": "7XGF+F5 Bakonynána",
+                        "distanceOfStamp": 500,
+                        "timeToStamp": 7,
+                        "timeFromStamp": 7,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 46,
+                    "name": "Jásd",
+                    "distEastward": 4100,
+                    "distWestward": 6100,
+                    "timeEastward": 90,
+                    "timeWestward": 110,
+                    "elevEastward": 240,
+                    "elevWestward": 165,
+                    "busStop": {
+                        "name": "Jásd, autóbusz-váróterem",
+                        "mapSearch": "72MF+WH Jásd",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 47,
+                    "name": "Csőszpuszta",
+                    "distEastward": 6800,
+                    "distWestward": 4100,
+                    "timeEastward": 110,
+                    "timeWestward": 60,
+                    "elevEastward": 65,
+                    "elevWestward": 35,
+                    "busStop": {
+                        "name": "Tési elágazás",
+                        "mapSearch": "7395+MF Tés",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 48,
+                    "name": "Kisgyón",
+                    "distEastward": 11700,
+                    "distWestward": 6800,
+                    "timeEastward": 200,
+                    "timeWestward": 130,
+                    "elevEastward": 225,
+                    "elevWestward": 285,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 49,
+                    "name": "Bakonykúti",
+                    "distEastward": 10600,
+                    "distWestward": 11700,
+                    "timeEastward": 190,
+                    "timeWestward": 200,
+                    "elevEastward": 270,
+                    "elevWestward": 240,
+                    "busStop": {
+                        "name": "Bakonykúti, Szabadság utca",
+                        "mapSearch": "65WW+3Q Bakonykúti",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 50,
+                    "name": "Fehérvárcsurgó",
+                    "distEastward": 9600,
+                    "distWestward": 10600,
+                    "timeEastward": 170,
+                    "timeWestward": 190,
+                    "elevEastward": 235,
+                    "elevWestward": 315,
+                    "busStop": {
+                        "name": "Fehérvárcsurgó, kastély",
+                        "mapSearch": "77Q9+HP Fehérvárcsurgó",
+                        "distanceOfStamp": 1780,
+                        "timeToStamp": 26,
+                        "timeFromStamp": 26,
+                        "elevToStamp": 20,
+                        "elevFromStamp": 9
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 10,
+            "officialId": "OKT10", 
+            "region": "Vértes",
+            "stampPoints": [
+                {
+                    "number": 51,
+                    "name": "Bodajk",
+                    "distEastward": 8500,
+                    "distWestward": 9600,
+                    "timeEastward": 150,
+                    "timeWestward": 170,
+                    "elevEastward": 180,
+                    "elevWestward": 240,
+                    "busStop": {
+                        "name": "Bodajk, vasútállomás",
+                        "mapSearch": "8792+8Q Bodajk",
+                        "distanceOfStamp": 1320,
+                        "timeToStamp": 19,
+                        "timeFromStamp": 19,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 52,
+                    "name": "Csókakő",
+                    "distEastward": 14200,
+                    "distWestward": 8500,
+                    "elevEastward": 270,
+                    "elevWestward": 40,
+                    "timeEastward": 240,
+                    "timeWestward": 130,
+                    "busStop": {
+                        "name": "Csókakő, községháza",
+                        "mapSearch": "973F+F2 Csókakő",
+                        "distanceOfStamp": 860,
+                        "timeToStamp": 13,
+                        "timeFromStamp": 13,
+                        "elevToStamp": 56,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 53,
+                    "name": "Gánt",
+                    "distEastward": 5700,
+                    "distWestward": 14200,
+                    "elevEastward": 185,
+                    "elevWestward": 340,
+                    "timeEastward": 100,
+                    "timeWestward": 250,
+                    "busStop": {
+                        "name": "Gánt, községháza",
+                        "mapSearch": "99RR+R5 Gánt",
+                        "distanceOfStamp": 300,
+                        "timeToStamp": 4,
+                        "timeFromStamp": 4,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 54,
+                    "name": "Mindszentpuszta",
+                    "distEastward": 7400,
+                    "distWestward": 5700,
+                    "elevEastward": 195,
+                    "elevWestward": 70,
+                    "timeEastward": 130,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 55,
+                    "name": "Kőhányás",
+                    "distEastward": 4900,
+                    "distWestward": 7400,
+                    "elevEastward": 95,
+                    "elevWestward": 205,
+                    "timeEastward": 80,
+                    "timeWestward": 130,
+                    "busStop": {
+                        "name": "Gánt, Kőhányáspuszta",
+                        "mapSearch": "C9VR+6P Gánt",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 56,
+                    "name": "Várgesztes",
+                    "distEastward": 15600,
+                    "distWestward": 4900,
+                    "elevEastward": 450,
+                    "elevWestward": 140,
+                    "timeEastward": 280,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "Várgesztes, autóbusz-forduló",
+                        "mapSearch": "F9FW+RX Várgesztes",
+                        "distanceOfStamp": 190,
+                        "timeToStamp": 3,
+                        "timeFromStamp": 3,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }                
+            ]
+        },
+        {
+            "numberOfSection": 11,
+            "officialId": "OKT11", 
+            "region": "Gerecse",
+            "stampPoints": [
+                {
+                    "number": 57,
+                    "name": "Szárliget",
+                    "distEastward": 12300,
+                    "distWestward": 15600,
+                    "elevEastward": 380,
+                    "elevWestward": 495,
+                    "timeEastward": 220,
+                    "timeWestward": 280,
+                    "busStop": {
+                        "name": "Szárliget, vasútállomás",
+                        "mapSearch": "GF9W+88 Szárliget",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 58,
+                    "name": "Somlyóvár",
+                    "distEastward": 8200,
+                    "distWestward": 12300,
+                    "elevEastward": 155,
+                    "elevWestward": 220,
+                    "timeEastward": 140,
+                    "timeWestward": 210,
+                    "busStop": {
+                        "name": "Tornyópuszta, iroda",
+                        "mapSearch": "HFFX+7F Tarján",
+                        "distanceOfStamp": 3500,
+                        "timeToStamp": 53,
+                        "timeFromStamp": 52,
+                        "elevToStamp": 149,
+                        "elevFromStamp": 41
+                    }
+                },
+                {
+                    "number": 59,
+                    "name": "Koldusszállás",
+                    "distEastward": 11400,
+                    "distWestward": 8200,
+                    "elevEastward": 365,
+                    "elevWestward": 340,
+                    "timeEastward": 210,
+                    "timeWestward": 160,
+                    "busStop": {
+                        "name": "Tornyópuszta, iroda",
+                        "mapSearch": "HFFX+7F Tarján",
+                        "distanceOfStamp": 5000,
+                        "timeToStamp": 75,
+                        "timeFromStamp": 75,
+                        "elevToStamp": 53,
+                        "elevFromStamp": 134
+                    }
+                },
+                {
+                    "number": 60,
+                    "name": "Bánya-hegyi erdészház",
+                    "distEastward": 4400,
+                    "distWestward": 11400,
+                    "elevEastward": 130,
+                    "elevWestward": 125,
+                    "timeEastward": 80,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Tardos, süttői elágazás",
+                        "mapSearch": "MC7W+6F Tardos",
+                        "distanceOfStamp": 2800,
+                        "timeToStamp": 42,
+                        "timeFromStamp": 42,
+                        "elevToStamp": 153,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 61,
+                    "name": "Gerecse üdülő",
+                    "distEastward": 2500,
+                    "distWestward": 4400,
+                    "elevEastward": 10,
+                    "elevWestward": 85,
+                    "timeEastward": 40,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "0",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 62,
+                    "name": "Pusztamarót",
+                    "distEastward": 8200,
+                    "distWestward": 2500,
+                    "elevEastward": 225,
+                    "elevWestward": 155,
+                    "timeEastward": 140,
+                    "timeWestward": 50,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "0",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 63,
+                    "name": "Péliföldszentkereszt",
+                    "distEastward": 5400,
+                    "distWestward": 8200,
+                    "elevEastward": 210,
+                    "elevWestward": 405,
+                    "timeEastward": 100,
+                    "timeWestward": 160,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "0",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 64,
+                    "name": "Mogyorósbánya",
+                    "distEastward": 2700,
+                    "distWestward": 5400,
+                    "elevEastward": 125,
+                    "elevWestward": 215,
+                    "timeEastward": 55,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Mogyorósbánya, községháza",
+                        "mapSearch": "PJG2+QX Mogyorósbánya",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 65,
+                    "name": "Tokodi pincék",
+                    "distEastward": 3400,
+                    "distWestward": 2700,
+                    "elevEastward": 175,
+                    "elevWestward": 155,
+                    "timeEastward": 70,
+                    "timeWestward": 55,
+                    "busStop": {
+                        "name": "Tokod, pincék",
+                        "mapSearch": "PJ8H+V2 Tokod",
+                        "distanceOfStamp": 300,
+                        "timeToStamp": 4,
+                        "timeFromStamp": 4,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 66,
+                    "name": "Tokod",
+                    "distEastward": 9200,
+                    "distWestward": 3400,
+                    "elevEastward": 360,
+                    "elevWestward": 180,
+                    "timeEastward": 170,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Tokod, Hősök tere",
+                        "mapSearch": "PM93+MP Tokod",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 12,
+            "officialId": "OKT12", 
+            "region": "Pilis",
+            "stampPoints": [
+                {
+                    "number": 67,
+                    "name": "Dorog",
+                    "distEastward": 10600,
+                    "distWestward": 9200,
+                    "elevEastward": 370,
+                    "elevWestward": 355,
+                    "timeEastward": 200,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "Dorog, vasútállomás",
+                        "mapSearch": "PPFM+C3 Dorog",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 68,
+                    "name": "Klastrompuszta",
+                    "distEastward": 8000,
+                    "distWestward": 10600,
+                    "elevEastward": 165,
+                    "elevWestward": 185,
+                    "timeEastward": 140,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Kesztölc, Dózsa utca",
+                        "mapSearch": "PR73+FM Kesztölc",
+                        "distanceOfStamp": 2800,
+                        "timeToStamp": 41,
+                        "timeFromStamp": 41,
+                        "elevToStamp": 88,
+                        "elevFromStamp": 8
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 13,
+            "officialId": "OKT13", 
+            "region": "Budai-hegység",
+            "stampPoints": [
+                {
+                    "number": 69,
+                    "name": "Piliscsaba",
+                    "distEastward": 12600,
+                    "distWestward": 8000,
+                    "elevEastward": 435,
+                    "elevWestward": 240,
+                    "timeEastward": 230,
+                    "timeWestward": 140,
+                    "busStop": {
+                        "name": "Piliscsaba, vasútállomás",
+                        "mapSearch": "JRQH+7Q Piliscsaba",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 70,
+                    "name": "Zsíros-hegy",
+                    "distEastward": 9900,
+                    "distWestward": 12600,
+                    "elevEastward": 140,
+                    "elevWestward": 270,
+                    "timeEastward": 160,
+                    "timeWestward": 210,
+                    "busStop": {
+                        "name": "Teleki-Tisza-kastély",
+                        "mapSearch": "HVGR+9F Nagykovácsi",
+                        "distanceOfStamp": 1940,
+                        "timeToStamp": 29,
+                        "timeFromStamp": 29,
+                        "elevToStamp": 78,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 14,
+            "officialId": "OKT14", 
+            "region": "Budai-hegység",
+            "stampPoints": [
+                {
+                    "number": 71,
+                    "name": "Hűvösvölgy",
+                    "distEastward": 8100,
+                    "distWestward": 9900,
+                    "elevEastward": 425,
+                    "elevWestward": 315,
+                    "timeEastward": 160,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Hűvösvölgy, Budapest",
+                        "mapSearch": "GXV7+7P Budapest",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 72,
+                    "name": "Hármashatár-hegy",
+                    "distEastward": 1700,
+                    "distWestward": 8100,
+                    "elevEastward": 50,
+                    "elevWestward": 170,
+                    "timeEastward": 30,
+                    "timeWestward": 140,
+                    "busStop": {
+                        "name": "Hedvig utca, Budapest",
+                        "mapSearch": "H246+CF Budapest",
+                        "distanceOfStamp": 1150,
+                        "timeToStamp": 20,
+                        "timeFromStamp": 15,
+                        "elevToStamp": 223,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 73,
+                    "name": "Virágos-nyereg",
+                    "distEastward": 4400,
+                    "distWestward": 1700,
+                    "elevEastward": 55,
+                    "elevWestward": 170,
+                    "timeEastward": 70,
+                    "timeWestward": 40,
+                    "busStop": {
+                        "name": "Erdőalja út, Budapest",
+                        "mapSearch": "H254+QJ Budapest",
+                        "distanceOfStamp": 1550,
+                        "timeToStamp": 25,
+                        "timeFromStamp": 23,
+                        "elevToStamp": 114,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 15,
+            "officialId": "OKT15", 
+            "region": "Pilis",
+            "stampPoints": [
+                {
+                    "number": 74,
+                    "name": "Rozália téglagyár",
+                    "distEastward": 6700,
+                    "distWestward": 4400,
+                    "elevEastward": 405,
+                    "elevWestward": 290,
+                    "timeEastward": 140,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Üröm, vasútállomás",
+                        "mapSearch": "H2J2+6V Budapest",
+                        "distanceOfStamp": 1130,
+                        "timeToStamp": 17,
+                        "timeFromStamp": 17,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 75,
+                    "name": "Kevély-nyereg",
+                    "distEastward": 11900,
+                    "distWestward": 6700,
+                    "elevEastward": 285,
+                    "elevWestward": 105,
+                    "timeEastward": 210,
+                    "timeWestward": 110,
+                    "busStop": {
+                        "name": "Pilisborosjenő, autóbusz-forduló",
+                        "mapSearch": "JX5Q+JV Pilisborosjenő",
+                        "distanceOfStamp": 2700,
+                        "timeToStamp": 45,
+                        "timeFromStamp": 39,
+                        "elevToStamp": 208,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 76,
+                    "name": "Pilisszentkereszt",
+                    "distEastward": 4200,
+                    "distWestward": 11900,
+                    "elevEastward": 370,
+                    "elevWestward": 370,
+                    "timeEastward": 100,
+                    "timeWestward": 220,
+                    "busStop": {
+                        "name": "Pilisszentkereszt, pilisszántói elágazás",
+                        "mapSearch": "MWV3+C3 Pilisszentkereszt",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 16,
+            "officialId": "OKT16", 
+            "region": "Visegrádi-hegység",
+            "stampPoints": [
+                {
+                    "number": 77,
+                    "name": "Dobogókő",
+                    "distEastward": 6400,
+                    "distWestward": 4200,
+                    "elevEastward": 35,
+                    "elevWestward": 15,
+                    "timeEastward": 100,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Pilisszentkereszt, Dobogókő hegytető",
+                        "mapSearch": "PV9X+J2 Pilisszentkereszt",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 78,
+                    "name": "Sikárosi erdészház",
+                    "distEastward": 3600,
+                    "distWestward": 6400,
+                    "elevEastward": 125,
+                    "elevWestward": 405,
+                    "timeEastward": 70,
+                    "timeWestward": 140,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 79,
+                    "name": "Pilisszentlászló",
+                    "distEastward": 3600,
+                    "distWestward": 3600,
+                    "elevEastward": 190,
+                    "elevWestward": 50,
+                    "timeEastward": 70,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Pilisszentlászló, községháza",
+                        "mapSearch": "PXFQ+6C Pilisszentlászló",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 80,
+                    "name": "Pap-réti erdészház",
+                    "distEastward": 8500,
+                    "distWestward": 3600,
+                    "elevEastward": 245,
+                    "elevWestward": 115,
+                    "timeEastward": 150,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 81,
+                    "name": "Nagy-Villám",
+                    "distEastward": 2600,
+                    "distWestward": 8500,
+                    "elevEastward": 20,
+                    "elevWestward": 385,
+                    "timeEastward": 40,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Visegrád, bobpálya",
+                        "mapSearch": "QXVR+66 Visegrád",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 82,
+                    "name": "Visegrád",
+                    "distEastward": 0,
+                    "distWestward": 2600,
+                    "elevEastward": 0,
+                    "elevWestward": 255,
+                    "timeEastward": 0,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Visegrád, nagymarosi rév",
+                        "mapSearch": "QXP9+M2 Visegrád",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 17,
+            "officialId": "OKT17", 
+            "region": "Börzsöny",
+            "stampPoints": [
+                {
+                    "number": 83,
+                    "name": "Nagymaros",
+                    "distEastward": 11000,
+                    "distWestward": 0,
+                    "elevEastward": 500,
+                    "elevWestward": 0,
+                    "timeEastward": 210,
+                    "timeWestward": 0,
+                    "busStop": {
+                        "name": "Nagymaros-Visegrád, vasútállomás",
+                        "mapSearch": "QXR5+HM Nagymaros",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 84,
+                    "name": "Törökmező turistaház",
+                    "distEastward": 9500,
+                    "distWestward": 11000,
+                    "elevEastward": 335,
+                    "elevWestward": 375,
+                    "timeEastward": 180,
+                    "timeWestward": 200,
+                    "busStop": {
+                        "name": "Nagymaros-Visegrád, vasútállomás",
+                        "mapSearch": "QXR5+HM Nagymaros",
+                        "distanceOfStamp": 1900,
+                        "timeToStamp": 30,
+                        "timeFromStamp": 30,
+                        "elevToStamp": 31,
+                        "elevFromStamp": 28
+                    }
+                },
+                {
+                    "number": 85,
+                    "name": "Kisinóci turistaház",
+                    "distEastward": 5700,
+                    "distWestward": 9500,
+                    "elevEastward": 580,
+                    "elevWestward": 245,
+                    "timeEastward": 140,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "Kóspallag, templom",
+                        "mapSearch": "VWHM+42 Kóspallag",
+                        "distanceOfStamp": 1550,
+                        "timeToStamp": 25,
+                        "timeFromStamp": 25,
+                        "elevToStamp": 43,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 86,
+                    "name": "Nagy-Hideg-hegy",
+                    "distEastward": 14900,
+                    "distWestward": 5700,
+                    "elevEastward": 325,
+                    "elevWestward": 55,
+                    "timeEastward": 250,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "0",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 18,
+            "officialId": "OKT18", 
+            "region": "Cserhát",
+            "stampPoints": [
+                {
+                    "number": 87,
+                    "name": "Nógrád",
+                    "distEastward": 4400,
+                    "distWestward": 14900,
+                    "elevEastward": 250,
+                    "elevWestward": 955,
+                    "timeEastward": 90,
+                    "timeWestward": 320,
+                    "busStop": {
+                        "name": "Nógrád, vasútállomás",
+                        "mapSearch": "W22X+Q2 Nógrád",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 88,
+                    "name": "Lokó pihenő",
+                    "distEastward": 3900,
+                    "distWestward": 4400,
+                    "elevEastward": 10,
+                    "elevWestward": 85,
+                    "timeEastward": 60,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 89,
+                    "name": "Magyarkút",
+                    "distEastward": 6700,
+                    "distWestward": 3900,
+                    "elevEastward": 165,
+                    "elevWestward": 245,
+                    "timeEastward": 120,
+                    "timeWestward": 80,
+                    "busStop": {
+                        "name": "Magyarkút, vasútállomás",
+                        "mapSearch": "V22W+44 Verőce",
+                        "distanceOfStamp": 900,
+                        "timeToStamp": 13,
+                        "timeFromStamp": 13,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 90,
+                    "name": "Katalinpuszta",
+                    "distEastward": 13900,
+                    "distWestward": 6700,
+                    "elevEastward": 690,
+                    "elevWestward": 145,
+                    "timeEastward": 280,
+                    "timeWestward": 110,
+                    "busStop": {
+                        "name": "Szendehely, általános iskola",
+                        "mapSearch": "V443+CV Szendehely",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 91,
+                    "name": "Ősagárd",
+                    "distEastward": 6700,
+                    "distWestward": 13900,
+                    "elevEastward": 130,
+                    "elevWestward": 585,
+                    "timeEastward": 110,
+                    "timeWestward": 260,
+                    "busStop": {
+                        "name": "Ősagárd, Rákóczi u.51.",
+                        "mapSearch": "V55R+JP Ősagárd",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 92,
+                    "name": "Felsőpetény",
+                    "distEastward": 4400,
+                    "distWestward": 6700,
+                    "elevEastward": 80,
+                    "elevWestward": 225,
+                    "timeEastward": 70,
+                    "timeWestward": 120,
+                    "busStop": {
+                        "name": "Felsőpetény, orvosi rendelő",
+                        "mapSearch": "V5QW+47 Felsőpetény",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 93,
+                    "name": "Alsópetény",
+                    "distEastward": 7000,
+                    "distWestward": 4400,
+                    "elevEastward": 230,
+                    "elevWestward": 50,
+                    "timeEastward": 130,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Alsópetény, községháza",
+                        "mapSearch": "V6FV+RP Alsópetény",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 94,
+                    "name": "Romhány",
+                    "distEastward": 2800,
+                    "distWestward": 7000,
+                    "elevEastward": 55,
+                    "elevWestward": 285,
+                    "timeEastward": 50,
+                    "timeWestward": 130,
+                    "busStop": {
+                        "name": "Romhány, vasútállomás",
+                        "mapSearch": "W7C7+F8 Romhány",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 95,
+                    "name": "Kétbodony",
+                    "distEastward": 10300,
+                    "distWestward": 2800,
+                    "elevEastward": 285,
+                    "elevWestward": 35,
+                    "timeEastward": 180,
+                    "timeWestward": 45,
+                    "busStop": {
+                        "name": "Kétbodony, községháza",
+                        "mapSearch": "W7PM+3R Kétbodony",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 19,
+            "officialId": "OKT19", 
+            "region": "Cserhát",
+            "stampPoints": [
+                {
+                    "number": 96,
+                    "name": "Becske",
+                    "distEastward": 6000,
+                    "distWestward": 10300,
+                    "elevEastward": 265,
+                    "elevWestward": 240,
+                    "timeEastward": 120,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Becske, posta",
+                        "mapSearch": "W96G+2C Becske",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 97,
+                    "name": "Szandaváralja",
+                    "distEastward": 10300,
+                    "distWestward": 6000,
+                    "elevEastward": 250,
+                    "elevWestward": 245,
+                    "timeEastward": 180,
+                    "timeWestward": 110,
+                    "busStop": {
+                        "name": "Szandaváralja, Madách út 29.",
+                        "mapSearch": "WCG6+XF Szanda ",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 98,
+                    "name": "Cserhátsurány",
+                    "distEastward": 9200,
+                    "distWestward": 10300,
+                    "elevEastward": 255,
+                    "elevWestward": 310,
+                    "timeEastward": 160,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Cserhátsurány, központ",
+                        "mapSearch": "XCGG+96 Cserhátsurány",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 99,
+                    "name": "Nógrádsipek",
+                    "distEastward": 11600,
+                    "distWestward": 9200,
+                    "elevEastward": 450,
+                    "elevWestward": 225,
+                    "timeEastward": 220,
+                    "timeWestward": 160,
+                    "busStop": {
+                        "name": "Nógrádsipek, faluközpont",
+                        "mapSearch": "2G52+5R Nógrádsipek",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 100,
+                    "name": "Hollókő",
+                    "distEastward": 10300,
+                    "distWestward": 11600,
+                    "elevEastward": 295,
+                    "elevWestward": 350,
+                    "timeEastward": 180,
+                    "timeWestward": 210,
+                    "busStop": {
+                        "name": "Hollókő, autóbusz-váróterem",
+                        "mapSearch": "XHWR+WR Hollókő",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 101,
+                    "name": "Bableves csárda",
+                    "distEastward": 13600,
+                    "distWestward": 10300,
+                    "elevEastward": 480,
+                    "elevWestward": 280,
+                    "timeEastward": 250,
+                    "timeWestward": 180,
+                    "busStop": {
+                        "name": "Kozárd, nagymezői elágazás",
+                        "mapSearch": "WJM5+FW Kozárd",
+                        "distanceOfStamp": 550,
+                        "timeToStamp": 13,
+                        "timeFromStamp": 13,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 102,
+                    "name": "Nagybárkány",
+                    "distEastward": 13100,
+                    "distWestward": 13600,
+                    "elevEastward": 375,
+                    "elevWestward": 590,
+                    "timeEastward": 230,
+                    "timeWestward": 260,
+                    "busStop": {
+                        "name": "Nagybárkány, községháza",
+                        "mapSearch": "XPW2+VP Nagybárkány",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 20,
+            "officialId": "OKT20", 
+            "region": "Mátra",
+            "stampPoints": [
+                {
+                    "number": 103,
+                    "name": "Mátraverebély",
+                    "distEastward": 7600,
+                    "distWestward": 13100,
+                    "elevEastward": 535,
+                    "elevWestward": 405,
+                    "timeEastward": 170,
+                    "timeWestward": 240,
+                    "busStop": {
+                        "name": "Mátraverebély, vasútállomás",
+                        "mapSearch": "XQ9H+8C Mátraverebély",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 104,
+                    "name": "Ágasvár turistaház",
+                    "distEastward": 4200,
+                    "distWestward": 7600,
+                    "elevEastward": 195,
+                    "elevWestward": 90,
+                    "timeEastward": 80,
+                    "timeWestward": 120,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 105,
+                    "name": "Mátraszentistván",
+                    "distEastward": 5100,
+                    "distWestward": 4200,
+                    "elevEastward": 300,
+                    "elevWestward": 110,
+                    "timeEastward": 110,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Mátraszentimre, központ",
+                        "mapSearch": "WVGC+J6 Mátraszentimre",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 106,
+                    "name": "Galyatető",
+                    "distEastward": 3600,
+                    "distWestward": 5100,
+                    "elevEastward": 65,
+                    "elevWestward": 100,
+                    "timeEastward": 60,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "Galyatető, Kodály Zoltán sétány",
+                        "mapSearch": "WW7C+P5 Mátraszentimre",
+                        "distanceOfStamp": 390,
+                        "timeToStamp": 6,
+                        "timeFromStamp": 6,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 107,
+                    "name": "Vércverés",
+                    "distEastward": 3100,
+                    "distWestward": 3600,
+                    "elevEastward": 110,
+                    "elevWestward": 300,
+                    "timeEastward": 60,
+                    "timeWestward": 80,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "0",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 108,
+                    "name": "Vörösmarty fogadó",
+                    "distEastward": 1800,
+                    "distWestward": 3100,
+                    "elevEastward": 100,
+                    "elevWestward": 165,
+                    "timeEastward": 40,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Mátraháza, Vörösmarty turistaház",
+                        "mapSearch": "VXMH+52 Gyöngyös",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 21,
+            "officialId": "OKT21", 
+            "region": "Mátra",
+            "stampPoints": [
+                {
+                    "number": 109,
+                    "name": "Mátraháza",
+                    "distEastward": 3800,
+                    "distWestward": 1800,
+                    "elevEastward": 355,
+                    "elevWestward": 35,
+                    "timeEastward": 90,
+                    "timeWestward": 30,
+                    "busStop": {
+                        "name": "Mátraháza, autóbusz-állomás",
+                        "mapSearch": "VXCH+2H Gyöngyös",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 110,
+                    "name": "Kékestető",
+                    "distEastward": 5800,
+                    "distWestward": 3800,
+                    "elevEastward": 90,
+                    "elevWestward": 45,
+                    "timeEastward": 90,
+                    "timeWestward": 60,
+                    "busStop": {
+                        "name": "Kékestető, Mátrai Gyógyintézet",
+                        "mapSearch": "V2C5+8P Gyöngyös",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 111,
+                    "name": "Hármashatár erdészház",
+                    "distEastward": 16900,
+                    "distWestward": 5800,
+                    "elevEastward": 605,
+                    "elevWestward": 470,
+                    "timeEastward": 310,
+                    "timeWestward": 130,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 22,
+            "officialId": "OKT22", 
+            "region": "Mátra",
+            "stampPoints": [
+                {
+                    "number": 112,
+                    "name": "Sirok",
+                    "distEastward": 6400,
+                    "distWestward": 16900,
+                    "elevEastward": 265,
+                    "elevWestward": 1075,
+                    "timeEastward": 120,
+                    "timeWestward": 360,
+                    "busStop": {
+                        "name": "Sirok, központ",
+                        "mapSearch": "W5JW+H2 Sirok",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 113,
+                    "name": "Rozsnakpuszta",
+                    "distEastward": 11700,
+                    "distWestward": 6400,
+                    "elevEastward": 320,
+                    "elevWestward": 200,
+                    "timeEastward": 210,
+                    "timeWestward": 120,
+                    "busStop": {
+                        "name": "Sirok, Rozsnoki-völgy",
+                        "mapSearch": "W6PM+GH Sirok",
+                        "distanceOfStamp": 2960,
+                        "timeToStamp": 45,
+                        "timeFromStamp": 45,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 23,
+            "officialId": "OKT23", 
+            "region": "Bükk",
+            "stampPoints": [
+                {
+                    "number": 114,
+                    "name": "Szarvaskő",
+                    "distEastward": 7200,
+                    "distWestward": 11700,
+                    "elevEastward": 455,
+                    "elevWestward": 320,
+                    "timeEastward": 150,
+                    "timeWestward": 210,
+                    "busStop": {
+                        "name": "Szarvaskő, italbolt",
+                        "mapSearch": "X8QJ+65 Szarvaskő",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 115,
+                    "name": "Telekessy vendégház",
+                    "distEastward": 3900,
+                    "distWestward": 7200,
+                    "elevEastward": 65,
+                    "elevWestward": 605,
+                    "timeEastward": 60,
+                    "timeWestward": 140,
+                    "busStop": {
+                        "name": "Bélapátfalva, vásártér",
+                        "mapSearch": "28XV+G8 Bélapátfalva",
+                        "distanceOfStamp": 1500,
+                        "timeToStamp": 22,
+                        "timeFromStamp": 22,
+                        "elevToStamp": 51,
+                        "elevFromStamp": 7
+                    }
+                },
+                {
+                    "number": 116,
+                    "name": "Bélapátfalva",
+                    "distEastward": 9900,
+                    "distWestward": 3900,
+                    "elevEastward": 660,
+                    "elevWestward": 120,
+                    "timeEastward": 210,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Bélapátfalva, egészségház",
+                        "mapSearch": "3953+G5 Bélapátfalva",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 117,
+                    "name": "Cserepes-kői-barlang",
+                    "distEastward": 11300,
+                    "distWestward": 9900,
+                    "elevEastward": 475,
+                    "elevWestward": 205,
+                    "timeEastward": 220,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 118,
+                    "name": "Bánkút",
+                    "distEastward": 8100,
+                    "distWestward": 11300,
+                    "elevEastward": 120,
+                    "elevWestward": 395,
+                    "timeEastward": 130,
+                    "timeWestward": 210,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 119,
+                    "name": "Mályinka",
+                    "distEastward": 9300,
+                    "distWestward": 8100,
+                    "elevEastward": 165,
+                    "elevWestward": 675,
+                    "timeEastward": 160,
+                    "timeWestward": 190,
+                    "busStop": {
+                        "name": "Mályinka, tűzoltószertár",
+                        "mapSearch": "5F2W+GR Mályinka",
+                        "distanceOfStamp": 390,
+                        "timeToStamp": 6,
+                        "timeFromStamp": 6,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 120,
+                    "name": "Uppony",
+                    "distEastward": 12900,
+                    "distWestward": 9300,
+                    "elevEastward": 310,
+                    "elevWestward": 260,
+                    "timeEastward": 220,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "Uppony, Szabadság telep",
+                        "mapSearch": "6C8Q+CC Uppony",
+                        "distanceOfStamp": 340,
+                        "timeToStamp": 5,
+                        "timeFromStamp": 5,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 24,
+            "officialId": "OKT24", 
+            "region": "Gömör-Tornai-karszt",
+            "stampPoints": [
+                {
+                    "number": 121,
+                    "name": "Putnok",
+                    "distEastward": 10400,
+                    "distWestward": 12900,
+                    "elevEastward": 230,
+                    "elevWestward": 370,
+                    "timeEastward": 180,
+                    "timeWestward": 230,
+                    "busStop": {
+                        "name": "Putnok, vasútállomás",
+                        "mapSearch": "7CPP+MX Putnok",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 122,
+                    "name": "Kelemér",
+                    "distEastward": 2300,
+                    "distWestward": 10400,
+                    "elevEastward": 35,
+                    "elevWestward": 170,
+                    "timeEastward": 40,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "Kelemér, autóbusz-váróterem",
+                        "mapSearch": "9C4H+9P Kelemér",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 123,
+                    "name": "Gömörszőlős",
+                    "distEastward": 5500,
+                    "distWestward": 2300,
+                    "elevEastward": 95,
+                    "elevWestward": 15,
+                    "timeEastward": 90,
+                    "timeWestward": 35,
+                    "busStop": {
+                        "name": "Gömörszőlős, községháza",
+                        "mapSearch": "9CFG+CV Gömörszőlős",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 124,
+                    "name": "Zádorfalva",
+                    "distEastward": 13100,
+                    "distWestward": 5500,
+                    "elevEastward": 320,
+                    "elevWestward": 105,
+                    "timeEastward": 230,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "Zádorfalva, ABC áruház",
+                        "mapSearch": "9FPQ+F7 Zádorfalva",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 125,
+                    "name": "Aggtelek",
+                    "distEastward": 5200,
+                    "distWestward": 13100,
+                    "elevEastward": 220,
+                    "elevWestward": 215,
+                    "timeEastward": 100,
+                    "timeWestward": 220,
+                    "busStop": {
+                        "name": "Aggtelek, Baradla-barlang",
+                        "mapSearch": "FF9W+W5 Aggtelek",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 126,
+                    "name": "Jósvafő",
+                    "distEastward": 15000,
+                    "distWestward": 5200,
+                    "elevEastward": 480,
+                    "elevWestward": 260,
+                    "timeEastward": 270,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Jósvafő, Szálló",
+                        "mapSearch": "FGMQ+RX Jósvafő",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 127,
+                    "name": "Derenk",
+                    "distEastward": 7000,
+                    "distWestward": 15000,
+                    "elevEastward": 285,
+                    "elevWestward": 430,
+                    "timeEastward": 130,
+                    "timeWestward": 270,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 128,
+                    "name": "Szabó-pallag erdészház",
+                    "distEastward": 4600,
+                    "distWestward": 7000,
+                    "elevEastward": 40,
+                    "elevWestward": 140,
+                    "timeEastward": 70,
+                    "timeWestward": 120,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 25,
+            "officialId": "OKT25", 
+            "region": "Cserehát",
+            "stampPoints": [
+                {
+                    "number": 129,
+                    "name": "Bódvaszilas",
+                    "distEastward": 4600,
+                    "distWestward": 4600,
+                    "elevEastward": 30,
+                    "elevWestward": 360,
+                    "timeEastward": 70,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Bódvaszilas, vasútállomás",
+                        "mapSearch": "GPPQ+X6 Bódvaszilas",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 130,
+                    "name": "Bódvarákó",
+                    "distEastward": 13800,
+                    "distWestward": 4600,
+                    "elevEastward": 510,
+                    "elevWestward": 35,
+                    "timeEastward": 260,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Bódvarákó, autóbusz-váróterem",
+                        "mapSearch": "GP6P+CF Bódvarákó",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 131,
+                    "name": "Tornabarakony",
+                    "distEastward": 3900,
+                    "distWestward": 13800,
+                    "elevEastward": 80,
+                    "elevWestward": 475,
+                    "timeEastward": 70,
+                    "timeWestward": 250,
+                    "busStop": {
+                        "name": "Tornabarakony, templom",
+                        "mapSearch": "FRR9+PF Tornabarakony",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 132,
+                    "name": "Rakacaszend",
+                    "distEastward": 16300,
+                    "distWestward": 3900,
+                    "elevEastward": 325,
+                    "elevWestward": 95,
+                    "timeEastward": 280,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Rakacaszend, autóbusz-váróterem",
+                        "mapSearch": "FR6Q+5G Rakacaszend",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 133,
+                    "name": "Felsővadász",
+                    "distEastward": 5100,
+                    "distWestward": 16300,
+                    "elevEastward": 175,
+                    "elevWestward": 330,
+                    "timeEastward": 90,
+                    "timeWestward": 280,
+                    "busStop": {
+                        "name": "Felsővadász, Petőfi u. 1.",
+                        "mapSearch": "9WC8+95 Felsővadász",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 134,
+                    "name": "Abaújszolnok",
+                    "distEastward": 5500,
+                    "distWestward": 5100,
+                    "elevEastward": 120,
+                    "elevWestward": 170,
+                    "timeEastward": 90,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "Abaújszolnok, Dózsa György utca",
+                        "mapSearch": "9XCF+5P Abaújszolnok",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 135,
+                    "name": "Baktakék",
+                    "distEastward": 4000,
+                    "distWestward": 5500,
+                    "elevEastward": 115,
+                    "elevWestward": 130,
+                    "timeEastward": 70,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Baktakék, autóbusz-forduló",
+                        "mapSearch": "92FH+JP Baktakék",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 136,
+                    "name": "Fancsal",
+                    "distEastward": 10100,
+                    "distWestward": 4000,
+                    "elevEastward": 55,
+                    "elevWestward": 90,
+                    "timeEastward": 160,
+                    "timeWestward": 70,
+                    "busStop": {
+                        "name": "Fancsal, vegyesbolt",
+                        "mapSearch": "9347+H6 Fancsal",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 137,
+                    "name": "Gibárt",
+                    "distEastward": 5000,
+                    "distWestward": 10100,
+                    "elevEastward": 75,
+                    "elevWestward": 120,
+                    "timeEastward": 80,
+                    "timeWestward": 160,
+                    "busStop": {
+                        "name": "Gibárt, Dózsa György utca 10.",
+                        "mapSearch": "8577+Q2 Gibárt",
+                        "distanceOfStamp": 500,
+                        "timeToStamp": 8,
+                        "timeFromStamp": 8,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 138,
+                    "name": "Hernádcéce",
+                    "distEastward": 1400,
+                    "distWestward": 5000,
+                    "elevEastward": 20,
+                    "elevWestward": 45,
+                    "timeEastward": 25,
+                    "timeWestward": 80,
+                    "busStop": {
+                        "name": "Hernádcéce, autóbusz-forduló",
+                        "mapSearch": "85XR+MJ Hernádcéce",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 26,
+            "officialId": "OKT26", 
+            "region": "Zemplén",
+            "stampPoints": [
+                {
+                    "number": 139,
+                    "name": "Boldogkőváralja",
+                    "distEastward": 17500,
+                    "distWestward": 1400,
+                    "elevEastward": 525,
+                    "elevWestward": 15,
+                    "timeEastward": 310,
+                    "timeWestward": 25,
+                    "busStop": {
+                        "name": "Boldogkőváralja, Kossuth u.",
+                        "mapSearch": "86RH+3R Boldogkőváralja",
+                        "distanceOfStamp": 800,
+                        "timeToStamp": 12,
+                        "timeFromStamp": 12,
+                        "elevToStamp": 82,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 140,
+                    "name": "Regéc",
+                    "distEastward": 8300,
+                    "distWestward": 17500,
+                    "elevEastward": 335,
+                    "elevWestward": 280,
+                    "timeEastward": 160,
+                    "timeWestward": 290,
+                    "busStop": {
+                        "name": "Regéc, községháza",
+                        "mapSearch": "98RV+QH Regéc",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 141,
+                    "name": "Istvánkúti vadászház",
+                    "distEastward": 7500,
+                    "distWestward": 8300,
+                    "elevEastward": 180,
+                    "elevWestward": 230,
+                    "timeEastward": 130,
+                    "timeWestward": 150,
+                    "busStop": {
+                        "name": "prev",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 142,
+                    "name": "Eszkála erdészház",
+                    "distEastward": 9800,
+                    "distWestward": 7500,
+                    "elevEastward": 150,
+                    "elevWestward": 210,
+                    "timeEastward": 160,
+                    "timeWestward": 130,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 143,
+                    "name": "Makkoshotyka",
+                    "distEastward": 2800,
+                    "distWestward": 9800,
+                    "elevEastward": 100,
+                    "elevWestward": 465,
+                    "timeEastward": 50,
+                    "timeWestward": 190,
+                    "busStop": {
+                        "name": "Makkoshotyka, községháza",
+                        "mapSearch": "9G49+VC Makkoshotyka",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 144,
+                    "name": "Cirkáló-tanya",
+                    "distEastward": 8500,
+                    "distWestward": 2800,
+                    "elevEastward": 390,
+                    "elevWestward": 60,
+                    "timeEastward": 170,
+                    "timeWestward": 50,
+                    "busStop": {
+                        "name": "prec",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        },
+        {
+            "numberOfSection": 27,
+            "officialId": "OKT27", 
+            "region": "Zemplén",
+            "stampPoints": [
+                {
+                    "number": 145,
+                    "name": "Nagy-nyugodó",
+                    "distEastward": 10800,
+                    "distWestward": 8500,
+                    "elevEastward": 400,
+                    "elevWestward": 225,
+                    "timeEastward": 200,
+                    "timeWestward": 150,
+                    "busStop": {
+                        "name": "Sátoraljaújhely, vasútállomás",
+                        "mapSearch": "9MP5+84 Sátoraljaújhely",
+                        "distanceOfStamp": 3410,
+                        "timeToStamp": 60,
+                        "timeFromStamp": 50,
+                        "elevToStamp": 253,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 146,
+                    "name": "Vágáshuta",
+                    "distEastward": 5500,
+                    "distWestward": 10800,
+                    "elevEastward": 160,
+                    "elevWestward": 555,
+                    "timeEastward": 100,
+                    "timeWestward": 220,
+                    "busStop": {
+                        "name": "Vágáshuta, autóbusz-forduló",
+                        "mapSearch": "CGFR+3Q Vágáshuta",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 147,
+                    "name": "Nagyhuta",
+                    "distEastward": 6000,
+                    "distWestward": 5500,
+                    "elevEastward": 70,
+                    "elevWestward": 120,
+                    "timeEastward": 100,
+                    "timeWestward": 90,
+                    "busStop": {
+                        "name": "Nagyhuta, autóbusz-forduló",
+                        "mapSearch": "CFJR+6X Nagyhuta",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 148,
+                    "name": "Bózsva",
+                    "distEastward": 9300,
+                    "distWestward": 6000,
+                    "elevEastward": 230,
+                    "elevWestward": 135,
+                    "timeEastward": 160,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Bózsva(Nagybózsva), autóbusz-váróterem",
+                        "mapSearch": "FFF9+QM Bózsva",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 149,
+                    "name": "Füzér",
+                    "distEastward": 9200,
+                    "distWestward": 9300,
+                    "elevEastward": 600,
+                    "elevWestward": 40,
+                    "timeEastward": 200,
+                    "timeWestward": 140,
+                    "busStop": {
+                        "name": "Füzér,községháza",
+                        "mapSearch": "GFQ4+P9 Füzér",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 150,
+                    "name": "Bodó-rét",
+                    "distEastward": 4400,
+                    "distWestward": 9200,
+                    "elevEastward": 30,
+                    "elevWestward": 345,
+                    "timeEastward": 70,
+                    "timeWestward": 170,
+                    "busStop": {
+                        "name": "next",
+                        "mapSearch": "",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                },
+                {
+                    "number": 151,
+                    "name": "Hollóháza",
+                    "distEastward": 0,
+                    "distWestward": 4400,
+                    "elevEastward": 0,
+                    "elevWestward": 340,
+                    "timeEastward": 0,
+                    "timeWestward": 100,
+                    "busStop": {
+                        "name": "Hollóháza, Szent László út, autóbusz-forduló",
+                        "mapSearch": "GCR7+Q5 Hollóháza",
+                        "distanceOfStamp": 0,
+                        "timeToStamp": 0,
+                        "timeFromStamp": 0,
+                        "elevToStamp": 0,
+                        "elevFromStamp": 0
+                    }
+                }
+            ]
+        }
+    ]
+}
