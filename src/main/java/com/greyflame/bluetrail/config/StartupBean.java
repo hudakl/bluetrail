@@ -31,30 +31,33 @@ public class StartupBean implements InitializingBean {
     }
 
     private void fillDatabase() throws JsonParseException, JsonMappingException, IOException {
-        //create ObjectMapper instance
-        ObjectMapper objectMapper = new ObjectMapper();
 
-        //read json file and convert to customer object
-        LongDistanceTrail longDistanceTrail = 
-            objectMapper.readValue(new File("src/main/resources/json/bluetrail.json"), LongDistanceTrail.class);
+        if (ldtRepository.count() == 0) {
+            //create ObjectMapper instance
+            ObjectMapper objectMapper = new ObjectMapper();
 
-        logger.info("Adding " + longDistanceTrail.getOriginalName());
-        for(TrailSection section: longDistanceTrail.getTrailSections()) {
-            logger.info("Reading " + section.getOfficialId());
-            section.setLongDistanceTrail(longDistanceTrail);
+            //read json file and convert to customer object
+            LongDistanceTrail longDistanceTrail = 
+                objectMapper.readValue(new File("src/main/resources/json/bluetrail.json"), LongDistanceTrail.class);
 
-            for (StampPoint stampPoint: section.getStampPoints()) {
-                logger.info("Reading " + stampPoint.getName());
-                stampPoint.setTrailSection(section);
+            logger.info("Adding " + longDistanceTrail.getOriginalName());
+            for(TrailSection section: longDistanceTrail.getTrailSections()) {
+                logger.info("Reading " + section.getOfficialId());
+                section.setLongDistanceTrail(longDistanceTrail);
 
-                BusStop busStop = stampPoint.getBusStop();
-                busStop.setStampPoint(stampPoint);
+                for (StampPoint stampPoint: section.getStampPoints()) {
+                    logger.info("Reading " + stampPoint.getName());
+                    stampPoint.setTrailSection(section);
+
+                    BusStop busStop = stampPoint.getBusStop();
+                    busStop.setStampPoint(stampPoint);
+                }
             }
+
+            ldtRepository.save(longDistanceTrail);
+
+            logger.info(longDistanceTrail.getOriginalName() + " added to database.");
         }
-
-        ldtRepository.save(longDistanceTrail);
-
-        logger.info(longDistanceTrail.getOriginalName() + " added to database.");
     }
 
     @Autowired
