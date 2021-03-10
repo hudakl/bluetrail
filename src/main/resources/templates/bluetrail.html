@@ -9,23 +9,39 @@
     <form action="#" th:action="@{/routeplanning}" th:object="${bluetrailDisplayContext}" method="post">
         <p th:text="#{start.point}" /> 
         
-        <select id="" name="">
+        <select th:field="*{startPointSection}" >
+            <option th:each="section : *{startPointSections}"
+                th:value="${section.officialId}"
+                th:text="${section.officialId + ' - ' + section.region}">
+            </option>
         </select>
         
-        <select id="" name="">
+        <select th:field="*{startPoint}" >
+            <option th:each="stamp : *{startPoints}"
+                th:value="${stamp.number}"
+                th:text="${stamp.number + ' - ' + stamp.name}">
+            </option>
         </select>
         
         <p th:text="#{end.point}" />
 
-        <select id="" name="">
+        <select th:field="*{endPointSection}" >
+            <option th:each="section : *{endPointSections}"
+                th:value="${section.officialId}"
+                th:text="${section.officialId + ' ' + section.region}">
+            </option>
         </select>
-        
-        <select id="" name="">
-        </select>
+
+        <select th:field="*{endPoint}" >
+            <option th:each="stamp : *{endPoints}"
+                th:value="${stamp.number}"
+                th:text="${stamp.number + ' - ' + stamp.name}">
+            </option>
+        </select>        
 
         <p th:text="#{trip.date}" />
 
-        <input type="date" />
+        <input type="date" th:field="*{hikeDay}" />
 
         <p th:text="#{home.address}" />
         <input type="submit" th:value="#{planning}" />

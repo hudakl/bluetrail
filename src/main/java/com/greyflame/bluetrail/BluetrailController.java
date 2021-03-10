@@ -1,5 +1,9 @@
 package com.greyflame.bluetrail;
 
+import com.greyflame.bluetrail.persistence.LongDistanceTrail;
+import com.greyflame.bluetrail.persistence.LongDistanceTrailRepository;
+
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,7 +15,11 @@ public class BluetrailController {
 
     @GetMapping("/bluetrail")
     public String greetingForm(Model model) {
-        model.addAttribute("bluetrail", new BluetrailDisplayContext());
+        if (ldTrail == null) {
+            ldTrail = ldtRepository.findByForeignNameKey("blue.trail").get(0);
+        }
+
+        model.addAttribute("bluetrailDisplayContext", new BluetrailDisplayContext(ldTrail));
         return "bluetrail";
     }
 
@@ -26,4 +34,8 @@ public class BluetrailController {
         return "result";
     }
 
+    @Autowired
+    private LongDistanceTrailRepository ldtRepository;
+
+    private LongDistanceTrail ldTrail;
 }
