@@ -3,20 +3,21 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <link th:href="@{/styles/css/main.css}" rel="stylesheet" />
+    <script type="application/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 <body>
 	<h1 th:text="#{blue.trail.planner}">Kéktúra tervező</h1>
     <form action="#" th:action="@{/routeplanning}" th:object="${bluetrailDisplayContext}" method="post">
         <p th:text="#{start.point}" /> 
         
-        <select th:field="*{startPointSection}" >
+        <select th:field="*{startPointSection}" id="start-section" onchange="changeStampSelector('start')">
             <option th:each="section : *{startPointSections}"
                 th:value="${section.officialId}"
                 th:text="${section.officialId + ' - ' + section.region}">
             </option>
         </select>
         
-        <select th:field="*{startPoint}" >
+        <select th:field="*{startPoint}" id="start-point" >
             <option th:each="stamp : *{startPoints}"
                 th:value="${stamp.number}"
                 th:text="${stamp.number + ' - ' + stamp.name}">
@@ -25,14 +26,14 @@
         
         <p th:text="#{end.point}" />
 
-        <select th:field="*{endPointSection}" >
+        <select th:field="*{endPointSection}" id="end-section" onchange="changeStampSelector('end')">
             <option th:each="section : *{endPointSections}"
                 th:value="${section.officialId}"
                 th:text="${section.officialId + ' ' + section.region}">
             </option>
         </select>
 
-        <select th:field="*{endPoint}" >
+        <select th:field="*{endPoint}" id="end-point" >
             <option th:each="stamp : *{endPoints}"
                 th:value="${stamp.number}"
                 th:text="${stamp.number + ' - ' + stamp.name}">
@@ -47,4 +48,18 @@
         <input type="submit" th:value="#{planning}" />
     </form>
 </body>
+
+<script>
+    function changeStampSelector(currentSelector) {
+        var section = $("#" + currentSelector + "-section").val();
+        $.get( "/sectionchange?section=" + section, function( data ) {
+            $("#"  + currentSelector + "-point").empty();
+            $.each(data, function(key, value) {
+                var option = "<option value = " + key + ">" + key + " - " + value +  "</option>";
+                $("#"  + currentSelector + "-point").append(option);
+            });
+        });
+    };
+</script>
+
 </html>
