@@ -128,5 +128,10 @@ public class StampPoint {
     public void setBusStop(BusStop busStop) {
         this.busStop = busStop;
     }
-    
+
+    @Override
+    public String toString() {
+        return "StampPoint [name=" + name + ", number=" + number + "]";
+    }
+
 }

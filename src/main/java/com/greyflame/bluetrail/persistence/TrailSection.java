@@ -81,5 +81,9 @@ public class TrailSection {
     public void setStampPoints(List<StampPoint> stampPoints) {
         this.stampPoints = stampPoints;
     }
-    
+
+    @Override
+    public String toString() {
+        return officialId + " " + region;
+    }
 }

@@ -119,4 +119,11 @@ public class BluetrailDisplayContext {
     public void setEndPoint(int endPoint) {
         this.endPoint = endPoint;
     }
+
+    @Override
+    public String toString() {
+        return "BluetrailDisplayContext [endPointSection=" + endPointSection + ", startPointSection="
+                + startPointSection + "]";
+    }
+
 }
