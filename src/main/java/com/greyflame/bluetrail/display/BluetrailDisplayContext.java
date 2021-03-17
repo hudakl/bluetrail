@@ -1,4 +1,4 @@
-package com.greyflame.bluetrail;
+package com.greyflame.bluetrail.display;
 
 import java.util.Date;
 import java.util.List;
@@ -11,6 +11,22 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 public class BluetrailDisplayContext {
     
+    public BluetrailDisplayContext(LongDistanceTrail ldt, StampPoint start, StampPoint end, Date hikeDay) {
+        this.startPointSections = ldt.getTrailSections();
+        this.endPointSections = ldt.getTrailSections();
+
+        this.startPointSection = start.getTrailSection().getOfficialId();
+        this.endPointSection = end.getTrailSection().getOfficialId();
+
+        this.startPoints = start.getTrailSection().getStampPoints();
+        this.endPoints = end.getTrailSection().getStampPoints();
+
+        this.startPoint = start.getNumber();
+        this.endPoint = end.getNumber();
+        
+        this.hikeDay = hikeDay;
+    }
+
     public BluetrailDisplayContext(LongDistanceTrail ldt) {
         this.startPointSections = ldt.getTrailSections();
         this.endPointSections = ldt.getTrailSections();
@@ -25,8 +41,7 @@ public class BluetrailDisplayContext {
         this.endPoint = endPoints.get(0).getNumber();
 
         this.hikeDay = new Date();
-
-        
+    
     }
         
     private List<TrailSection> startPointSections;

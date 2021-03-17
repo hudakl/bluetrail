@@ -7,18 +7,18 @@
 </head>
 <body>
 	<h1 th:text="#{blue.trail.planner}">Kéktúra tervező</h1>
-    <form action="#" th:action="@{/routeplanning}" th:object="${bluetrailDisplayContext}" method="post">
+    <form action="#" th:action="@{/routeplanning}" th:object="${bluetrailPlannerModel}" method="post">
         <p th:text="#{start.point}" /> 
         
-        <select th:field="*{startPointSection}" id="start-section" onchange="changeStampSelector('start')">
-            <option th:each="section : *{startPointSections}"
+        <select th:field="${bluetrailDisplayContext.startPointSection}" id="start-section" onchange="changeStampSelector('start')">
+            <option th:each="section : ${bluetrailDisplayContext.startPointSections}"
                 th:value="${section.officialId}"
                 th:text="${section.officialId + ' - ' + section.region}">
             </option>
         </select>
         
         <select th:field="*{startPoint}" id="start-point" >
-            <option th:each="stamp : *{startPoints}"
+            <option th:each="stamp : ${bluetrailDisplayContext.startPoints}"
                 th:value="${stamp.number}"
                 th:text="${stamp.number + ' - ' + stamp.name}">
             </option>
@@ -26,15 +26,15 @@
         
         <p th:text="#{end.point}" />
 
-        <select th:field="*{endPointSection}" id="end-section" onchange="changeStampSelector('end')">
-            <option th:each="section : *{endPointSections}"
+        <select th:field="${bluetrailDisplayContext.endPointSection}" id="end-section" onchange="changeStampSelector('end')">
+            <option th:each="section : ${bluetrailDisplayContext.endPointSections}"
                 th:value="${section.officialId}"
                 th:text="${section.officialId + ' ' + section.region}">
             </option>
         </select>
 
         <select th:field="*{endPoint}" id="end-point" >
-            <option th:each="stamp : *{endPoints}"
+            <option th:each="stamp : ${bluetrailDisplayContext.endPoints}"
                 th:value="${stamp.number}"
                 th:text="${stamp.number + ' - ' + stamp.name}">
             </option>

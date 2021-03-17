@@ -3,6 +3,8 @@ package com.greyflame.bluetrail;
 import java.util.HashMap;
 import java.util.Map;
 
+import com.greyflame.bluetrail.display.BluetrailDisplayContext;
+import com.greyflame.bluetrail.display.BluetrailPlannerModel;
 import com.greyflame.bluetrail.persistence.LongDistanceTrail;
 import com.greyflame.bluetrail.persistence.LongDistanceTrailRepository;
 import com.greyflame.bluetrail.persistence.StampPoint;
@@ -28,19 +30,36 @@ public class BluetrailController {
             ldTrail = ldtRepository.findByForeignNameKey("blue.trail").get(0);
         }
 
-        model.addAttribute("bluetrailDisplayContext", new BluetrailDisplayContext(ldTrail));
+        BluetrailDisplayContext bluetrailDisplayContext = new BluetrailDisplayContext(ldTrail); 
+
+        model.addAttribute("bluetrailDisplayContext", bluetrailDisplayContext);
+        model.addAttribute("bluetrailPlannerModel", new BluetrailPlannerModel(
+            bluetrailDisplayContext.getStartPoint(), 
+            bluetrailDisplayContext.getEndPoint(), 
+            bluetrailDisplayContext.getHikeDay())
+        );
         return "bluetrail";
     }
 
     @PostMapping("/routeplanning")
     public String routePlanning(
             @ModelAttribute 
-            BluetrailDisplayContext bluetrailDisplayContext, 
+            BluetrailPlannerModel bluetrailPlannerModel, 
             
             Model model) {
 
+        System.out.println(bluetrailPlannerModel);
+
+        BluetrailDisplayContext bluetrailDisplayContext = new BluetrailDisplayContext(ldTrail); 
+
         model.addAttribute("bluetrailDisplayContext", bluetrailDisplayContext);
-        return "result";
+        model.addAttribute("bluetrailPlannerModel", new BluetrailPlannerModel(
+            bluetrailDisplayContext.getStartPoint(), 
+            bluetrailDisplayContext.getEndPoint(), 
+            bluetrailDisplayContext.getHikeDay())
+        );
+
+        return "bluetrail";
     }
 
     @RequestMapping("/sectionchange")
