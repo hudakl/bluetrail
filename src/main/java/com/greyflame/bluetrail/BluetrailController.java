@@ -40,8 +40,8 @@ public class BluetrailController {
 
         model.addAttribute("bluetrailDisplayContext", bluetrailDisplayContext);
         model.addAttribute("bluetrailPlannerModel", new BluetrailPlannerModel(
-            bluetrailDisplayContext.getStartPoint(), 
-            bluetrailDisplayContext.getEndPoint(), 
+            bluetrailDisplayContext.getStartPoint().getNumber(), 
+            bluetrailDisplayContext.getEndPoint().getNumber(), 
             bluetrailDisplayContext.getHikeDay())
         );
         return "bluetrail";
@@ -59,8 +59,6 @@ public class BluetrailController {
         boolean westward = startNum > endNum;
         Date hikeDay = bluetrailPlannerModel.getHikeDay();
 
-        System.out.println(bluetrailPlannerModel);
-
         LinkedList<StampPoint> stampPoints = new LinkedList<StampPoint>();
         
         if (westward) {
@@ -71,17 +69,19 @@ public class BluetrailController {
             stampPoints.addAll(stampPointRepository.findByNumberBetween(startNum, endNum));
         }
 
-        System.out.println(stampPoints);
-        ItineraryPlanner itineraryPlanner = new ItineraryPlanner(stampPoints, westward);
-        System.out.println("Distance: " + itineraryPlanner.getAllDistance());
-        System.out.println("Time: " + itineraryPlanner.getAllTime());
-        System.out.println("Elevation: " + itineraryPlanner.getAllElevation());
+        ItineraryPlanner itineraryPlanner = new ItineraryPlanner(stampPoints, westward, hikeDay);
 
         if (!stampPoints.isEmpty()) {
             BluetrailDisplayContext bluetrailDisplayContext = 
                 new BluetrailDisplayContext(
                     ldTrail, stampPoints.getFirst(), stampPoints.getLast(), 
                     bluetrailPlannerModel.getHikeDay());
+            
+            bluetrailDisplayContext.setDistance(itineraryPlanner.getAllDistance());
+            bluetrailDisplayContext.setTime(itineraryPlanner.getAllTime());
+            bluetrailDisplayContext.setElevation(itineraryPlanner.getAllElevation());
+            bluetrailDisplayContext.setResult(true);
+            bluetrailDisplayContext.setOneDay(itineraryPlanner.isOneDay());
             
             model.addAttribute("bluetrailDisplayContext", bluetrailDisplayContext);
         }

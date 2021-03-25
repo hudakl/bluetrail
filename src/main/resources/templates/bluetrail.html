@@ -47,6 +47,16 @@
         <p th:text="#{home.address}" />
         <input type="submit" th:value="#{planning}" />
     </form>
+
+    <div th:if="${bluetrailDisplayContext.result}">
+        <br>
+        <p th:text="${bluetrailDisplayContext.startPoint.name} + ' - ' + ${bluetrailDisplayContext.endPoint.name}" />
+        <p th:text="'Distance: ' + ${bluetrailDisplayContext.distance}" />
+        <p th:text="'Time: ' + ${bluetrailDisplayContext.time}" />
+        <p th:text="'Elevation: ' + ${bluetrailDisplayContext.elevation}" />
+
+        <p th:if="${!bluetrailDisplayContext.oneDay}" th:text="#{not.one.day}" />
+    </div>
 </body>
 
 <script>

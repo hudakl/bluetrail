@@ -21,8 +21,8 @@ public class BluetrailDisplayContext {
         this.startPoints = start.getTrailSection().getStampPoints();
         this.endPoints = end.getTrailSection().getStampPoints();
 
-        this.startPoint = start.getNumber();
-        this.endPoint = end.getNumber();
+        this.startPoint = start;
+        this.endPoint = end;
         
         this.hikeDay = hikeDay;
     }
@@ -37,8 +37,8 @@ public class BluetrailDisplayContext {
         this.startPoints = startPointSections.get(0).getStampPoints();
         this.endPoints = endPointSections.get(0).getStampPoints();
 
-        this.startPoint = startPoints.get(0).getNumber();
-        this.endPoint = endPoints.get(0).getNumber();
+        this.startPoint = startPoints.get(0);
+        this.endPoint = endPoints.get(0);
 
         this.hikeDay = new Date();
     
@@ -56,9 +56,19 @@ public class BluetrailDisplayContext {
 
     private String endPointSection;
 
-    private int startPoint;
+    private StampPoint startPoint;
 
-    private int endPoint;
+    private StampPoint endPoint;
+
+    private float distance;
+
+    private String time;
+
+    private int elevation;
+
+    private boolean oneDay;
+
+    private boolean result;
 
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date hikeDay;
@@ -119,19 +129,19 @@ public class BluetrailDisplayContext {
         this.endPoints = endPoints;
     }
 
-    public int getStartPoint() {
+    public StampPoint getStartPoint() {
         return startPoint;
     }
 
-    public void setStartPoint(int startPoint) {
+    public void setStartPoint(StampPoint startPoint) {
         this.startPoint = startPoint;
     }
 
-    public int getEndPoint() {
+    public StampPoint getEndPoint() {
         return endPoint;
     }
 
-    public void setEndPoint(int endPoint) {
+    public void setEndPoint(StampPoint endPoint) {
         this.endPoint = endPoint;
     }
 
@@ -140,5 +150,46 @@ public class BluetrailDisplayContext {
         return "BluetrailDisplayContext [endPointSection=" + endPointSection + ", startPointSection="
                 + startPointSection + "]";
     }
+
+    public int getElevation() {
+        return elevation;
+    }
+
+    public void setElevation(int elevation) {
+        this.elevation = elevation;
+    }
+
+    public boolean isOneDay() {
+        return oneDay;
+    }
+
+    public void setOneDay(boolean oneDay) {
+        this.oneDay = oneDay;
+    }
+
+    public float getDistance() {
+        return distance;
+    }
+
+    public void setDistance(float distance) {
+        this.distance = distance;
+    }
+
+    public String getTime() {
+        return time;
+    }
+
+    public void setTime(String time) {
+        this.time = time;
+    }
+
+    public boolean isResult() {
+        return result;
+    }
+
+    public void setResult(boolean result) {
+        this.result = result;
+    }
+
 
 }
